@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Budget App</title>
+</head>
+
+<body>
+
+    <h1>BUDGET APP</h1>
+    <h2>Epense Tracker</h2>
+    <!-- <div class="container">
+    <h4>
+        Your Balance
+    </h4>
+    <h1 id="balance">Rs.0.00</h1>
+    <div class="card">
+        <div class="first-type">
+            <h4>INCOME</h4>
+            <p id="money" class="para">
+                Rs.0.00
+            </p>
+        </div>
+        <div>
+            <h4>EXPENSE</h4>
+            <p id="less-money" class="less">
+                Rs.0.00
+            </p>
+        </div>
+    </div>
+    <div class="history" id="history">
+    <h3>History</h3>
+
+    </div>
+    <ul id="list" class="list" id="history-list">
+    </ul>
+
+    <h3>Add New Income Transition</h3>
+    <form id="form">
+        <div class="form-control">
+            <label for="Text">Text</label>
+            <input type="text" name="" id="text" placeholder="Enter Text....">
+        </div>
+    </form>
+    <form id="form">
+        <div class="form-control">
+            <label for="amount">Amount</label>
+            <input type="number" name="" id="amount" placeholder="Enter Amount....">
+        </div>
+        <button class="btn" id="incomeButton" onclick="addIncome()">Add transaction</button>
+
+    </form>
+
+    <h3>Add New Expense Transition</h3>
+    <form id="form">
+        <div class="form-control">
+            <label for="Text">Text</label>
+            <input type="text" name="" id="exp-text" placeholder="Enter Text....">
+        </div>
+    </form>
+    <form id="form">
+        <div class="form-control">
+            <label for="amount">Amount</label>
+            <input type="text" name="" id="exp-amount" placeholder="Enter Amount....">
+        </div>
+        <button class="btn trans-btn">Add transaction</button>
+
+        <button class="btn">All Transactions</button>
+
+    </form>
+</div> -->
+    <div class="container">
+        <h4>Your Balance</h4>
+        <div class="card">
+            <div class="first-type">
+                <h4>INCOME</h4>
+                <div class="income-box para">
+                    0.00
+                </div>
+            </div>
+            <div>
+                <h4>EXPENSE</h4>
+                <div class="expense-box less">
+                    0.00
+                </div>
+            </div>
+
+
+        </div>
+      
+
+        <div class="history .list" id="history">
+            <h3>History</h3>
+        </div>
+        <div class="text">
+            <h3>Add New Income Transaction</h3>
+
+            <input type="text" name="" class="income-text" placeholder="Enter Text ...">
+        </div>
+        <div class="amount">
+            <input type="number" name="" class="income-number" placeholder="Enter Amount ...">
+        </div>
+        <button id="incomeBtn" onclick="addIncome()" class="btn">
+            Add transaction
+        </button>
+        <div class="text">
+            <h3>Add New Expense Transaction</h3>
+
+            <input type="text" name="" class="expense-text" placeholder="Enter Text ...">
+        </div>
+        <div class="amount">
+            <input type="number" name="" class="expense-number" placeholder="Enter Amount ...">
+        </div>
+        <button id="incomeBtn" onclick="addExpense()" class="btn">
+            Add transaction
+        </button>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
